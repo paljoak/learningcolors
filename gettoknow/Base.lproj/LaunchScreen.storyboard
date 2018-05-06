@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_5" orientation="portrait">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,20 +15,24 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="2BB-9K-q2p">
-                                <rect key="frame" x="197" y="442" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="2BB-9K-q2p">
+                                <rect key="frame" x="407" y="546" width="20" height="20"/>
                                 <viewLayoutGuide key="safeArea" id="jVu-vU-izC"/>
                             </activityIndicatorView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shapes" translatesAutoresizingMaskIntoConstraints="NO" id="s92-5S-hRH">
-                                <rect key="frame" x="-149" y="-181" width="696" height="519"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shapes" translatesAutoresizingMaskIntoConstraints="NO" id="s92-5S-hRH">
+                                <rect key="frame" x="-63" y="-231.5" width="960" height="778"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.058823529411764705" green="0.1764705882352941" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2BB-9K-q2p" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JdV-MM-033"/>
+                            <constraint firstItem="s92-5S-hRH" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fvq-Wk-8Ou"/>
+                            <constraint firstItem="2BB-9K-q2p" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="n25-Vy-XKj"/>
+                            <constraint firstItem="s92-5S-hRH" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-398.5" id="sJP-5v-e2w"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
