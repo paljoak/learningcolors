@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A7AEC2962097AEFA00CAE1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEC2952097AEFA00CAE1E8 /* AppDelegate.swift */; };
-		A7AEC2982097AEFA00CAE1E8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A7AEC2972097AEFA00CAE1E8 /* GameScene.sks */; };
 		A7AEC29A2097AEFA00CAE1E8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A7AEC2992097AEFA00CAE1E8 /* Actions.sks */; };
 		A7AEC29C2097AEFA00CAE1E8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEC29B2097AEFA00CAE1E8 /* GameScene.swift */; };
 		A7AEC29E2097AEFA00CAE1E8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEC29D2097AEFA00CAE1E8 /* GameViewController.swift */; };
@@ -17,6 +16,8 @@
 		A7AEC2A62097AEFD00CAE1E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7AEC2A42097AEFD00CAE1E8 /* LaunchScreen.storyboard */; };
 		A7AEC2B12097AEFD00CAE1E8 /* gettoknowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEC2B02097AEFD00CAE1E8 /* gettoknowTests.swift */; };
 		A7AEC2BC2097AEFD00CAE1E8 /* gettoknowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AEC2BB2097AEFD00CAE1E8 /* gettoknowUITests.swift */; };
+		A7AEC2C92097AF8600CAE1E8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A7AEC2CB2097AF8600CAE1E8 /* GameScene.sks */; };
+		A7F737BA209A5FC400790147 /* bensound-buddy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A7F737B9209A5FC400790147 /* bensound-buddy.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 /* Begin PBXFileReference section */
 		A7AEC2922097AEFA00CAE1E8 /* gettoknow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gettoknow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AEC2952097AEFA00CAE1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7AEC2972097AEFA00CAE1E8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		A7AEC2992097AEFA00CAE1E8 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		A7AEC29B2097AEFA00CAE1E8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		A7AEC29D2097AEFA00CAE1E8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		A7AEC2B72097AEFD00CAE1E8 /* gettoknowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gettoknowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AEC2BB2097AEFD00CAE1E8 /* gettoknowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gettoknowUITests.swift; sourceTree = "<group>"; };
 		A7AEC2BD2097AEFD00CAE1E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7AEC2CA2097AF8600CAE1E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Base; path = Base.lproj/GameScene.sks; sourceTree = "<group>"; };
+		A7F737B9209A5FC400790147 /* bensound-buddy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-buddy.mp3"; path = "gettoknow/Assets.xcassets/bensound-buddy.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				A7AEC2AF2097AEFD00CAE1E8 /* gettoknowTests */,
 				A7AEC2BA2097AEFD00CAE1E8 /* gettoknowUITests */,
 				A7AEC2932097AEFA00CAE1E8 /* Products */,
+				A7F737B9209A5FC400790147 /* bensound-buddy.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A7AEC2952097AEFA00CAE1E8 /* AppDelegate.swift */,
-				A7AEC2972097AEFA00CAE1E8 /* GameScene.sks */,
+				A7AEC2CB2097AF8600CAE1E8 /* GameScene.sks */,
 				A7AEC2992097AEFA00CAE1E8 /* Actions.sks */,
 				A7AEC29B2097AEFA00CAE1E8 /* GameScene.swift */,
 				A7AEC29D2097AEFA00CAE1E8 /* GameViewController.swift */,
@@ -239,8 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7AEC2A12097AEFA00CAE1E8 /* Main.storyboard in Resources */,
-				A7AEC2982097AEFA00CAE1E8 /* GameScene.sks in Resources */,
+				A7AEC2C92097AF8600CAE1E8 /* GameScene.sks in Resources */,
 				A7AEC2A32097AEFD00CAE1E8 /* Assets.xcassets in Resources */,
+				A7F737BA209A5FC400790147 /* bensound-buddy.mp3 in Resources */,
 				A7AEC2A62097AEFD00CAE1E8 /* LaunchScreen.storyboard in Resources */,
 				A7AEC29A2097AEFA00CAE1E8 /* Actions.sks in Resources */,
 			);
@@ -319,6 +323,14 @@
 				A7AEC2A52097AEFD00CAE1E8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A7AEC2CB2097AF8600CAE1E8 /* GameScene.sks */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7AEC2CA2097AF8600CAE1E8 /* Base */,
+			);
+			name = GameScene.sks;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -442,15 +454,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W7GPW8VY7H;
+				DEVELOPMENT_TEAM = KU59U2XJAT;
 				INFOPLIST_FILE = gettoknow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = joakimsen.gettoknow;
+				PRODUCT_BUNDLE_IDENTIFIER = no.joakimsen.learningcolors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,15 +474,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W7GPW8VY7H;
+				DEVELOPMENT_TEAM = KU59U2XJAT;
 				INFOPLIST_FILE = gettoknow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = joakimsen.gettoknow;
+				PRODUCT_BUNDLE_IDENTIFIER = no.joakimsen.learningcolors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
